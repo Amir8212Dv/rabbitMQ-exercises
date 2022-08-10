@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "rabbitmq-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon producer.js",
+    "start2": "nodemon consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.2",
+    "uuid": "^8.3.2"
+  }
+}
